@@ -26,7 +26,7 @@
 <body>
 <main>
 <h1>GameNightKit</h1>
-<p class="muted">นโยบายความเป็นส่วนตัว · Privacy Policy<br>มีผลตั้งแต่ / Effective: 23 October 2026</p>
+<p class="muted">นโยบายความเป็นส่วนตัว · Privacy Policy<br>มีผลตั้งแต่ / Effective: 25 October 2026</p>
 <nav><a href="#th">ภาษาไทย</a><a href="#en">English</a></nav>
 
 <section id="th" lang="th">
@@ -36,6 +36,11 @@
 <h3>1. ข้อมูลที่เก็บไว้ในเครื่องของคุณเท่านั้น</h3>
 <p>แอปบันทึกการตั้งค่าและข้อมูลการเล่นไว้ในเครื่องของคุณ เช่น ภาษา การตั้งค่าเสียง การตั้งค่าตัวจับเวลา ชื่อช่องนับแต้ม หัวข้อวงล้อ และสถิติการทอย ข้อมูลเหล่านี้<strong>ไม่ถูกส่งมาให้ผู้พัฒนา</strong> และผู้พัฒนาไม่มีเซิร์ฟเวอร์สำหรับเก็บข้อมูลผู้ใช้</p>
 <p>ระบบ Android อาจสำรองข้อมูลการตั้งค่านี้ไปยังบัญชี Google ของคุณ หากคุณเปิดการสำรองข้อมูลไว้ในเครื่อง ซึ่งอยู่ภายใต้การควบคุมของคุณและนโยบายของ Google</p>
+
+<h3>1.1 โหมดเล่นหลายเครื่อง</h3>
+<p>เมื่อคุณสร้างหรือเข้าร่วมห้องในเมนู “เล่นหลายเครื่อง” แอปจะส่งข้อมูลเกม ได้แก่ ชื่อห้อง ชื่อผู้เล่น แต้ม ลำดับตา เวลา ผลทอยลูกเต๋า/เหรียญ/วงล้อ และชื่อรุ่นของอุปกรณ์ (เช่น “Pixel 7”) <strong>ตรงระหว่างอุปกรณ์ในเครือข่าย Wi-Fi เดียวกัน หรือผ่าน Hotspot ของเครื่องแม่เท่านั้น</strong> ไม่ผ่านอินเทอร์เน็ตหรือเซิร์ฟเวอร์ใดๆ และไม่ถูกส่งมาให้ผู้พัฒนา การรับส่งเข้ารหัสตั้งแต่ต้นทางถึงปลายทางด้วยกุญแจที่สร้างจากรหัสห้อง ซึ่งรู้เฉพาะคนในห้อง และเครื่องใหม่ทุกเครื่องต้องได้รับการอนุมัติจากเครื่องแม่ก่อนจึงจะเข้าห้องได้</p>
+<p>หากเครื่องแม่เปิด Hotspot ชื่อและรหัสผ่านของ Hotspot (ที่ Android สุ่มให้ใหม่ทุกครั้ง) จะแสดงใน QR บนจอเครื่องแม่ เพื่อให้เครื่องลูกเชื่อมต่อได้ เครื่องลูกเก็บข้อมูลนี้ไว้พร้อมข้อมูลห้องล่าสุดเพื่อเชื่อมต่อกลับเมื่อหลุด และลบไปพร้อมกันตามข้อถัดไป</p>
+<p>เครื่องแม่เก็บข้อมูลห้องไว้ในเครื่องเพื่อให้เปิดห้องต่อได้ และเครื่องลูกเก็บข้อมูลห้องล่าสุดไว้เพื่อกลับเข้าห้องได้ ข้อมูลนี้ถูกลบเมื่อปิดห้อง ออกจากห้อง หรือกด “ลืมห้องนี้” แนะนำให้ใช้ชื่อเล่นแทนชื่อจริง</p>
 
 <h3>2. โฆษณา (Google AdMob)</h3>
 <p>แอปแสดงโฆษณาผ่าน Google AdMob ซึ่ง Google อาจเก็บและใช้ข้อมูลต่อไปนี้โดยอัตโนมัติ เพื่อแสดงโฆษณา วัดผล และป้องกันการฉ้อโกง</p>
@@ -53,8 +58,12 @@
 
 <h3>4. สิทธิ์ที่แอปขอ</h3>
 <ul>
-  <li><strong>อินเทอร์เน็ต / สถานะเครือข่าย</strong>: สำหรับโหลดโฆษณาและตรวจสอบการซื้อ เครื่องมือทั้งหมดใช้งานได้โดยไม่ต้องต่ออินเทอร์เน็ต</li>
-  <li><strong>การสั่น</strong>: สำหรับการแจ้งเตือนของตัวจับเวลาและนาฬิกา</li>
+  <li><strong>อินเทอร์เน็ต / สถานะเครือข่าย / เปลี่ยนการเชื่อมต่อเครือข่าย</strong>: สำหรับโหลดโฆษณา ตรวจสอบการซื้อ และเชื่อมอุปกรณ์ในโหมดหลายเครื่องผ่าน Wi-Fi หรือ Hotspot ของเครื่องแม่ เครื่องมือทั้งหมดใช้งานได้โดยไม่ต้องต่ออินเทอร์เน็ต</li>
+  <li><strong>การสั่น</strong>: สำหรับการแจ้งเตือนของตัวจับเวลา นาฬิกา และการแจ้งเตือนเมื่อถึงตาในโหมดหลายเครื่อง</li>
+  <li><strong>สถานะ Wi-Fi / มัลติแคสต์</strong>: สำหรับค้นหาและเชื่อมต่ออุปกรณ์ในห้องผ่าน Wi-Fi เดียวกัน</li>
+  <li><strong>อุปกรณ์ใกล้เคียง (Android 13 ขึ้นไป) หรือ ตำแหน่ง (Android 12 ลงไป)</strong>: ขอเฉพาะเมื่อเครื่องแม่เลือกเปิด Hotspot ของเครื่อง เพราะ Android กำหนดให้ต้องมีสิทธิ์นี้จึงจะเปิด Hotspot ได้ แอป<strong>ไม่ได้อ่าน ใช้ หรือเก็บตำแหน่งของคุณ</strong></li>
+  <li><strong>กล้อง</strong>: สำหรับสแกน QR เพื่อเข้าห้องเท่านั้น ภาพไม่ถูกบันทึกหรือส่งไปที่ใด</li>
+  <li><strong>รูปที่คุณเลือก</strong>: เมื่อกด “เลือก QR จากรูปในเครื่อง” แอปอ่านเฉพาะรูปที่คุณเลือกผ่านหน้าต่างเลือกรูปของระบบ เพื่อหา QR เข้าห้องในเครื่องเท่านั้น ไม่ขอสิทธิ์เข้าถึงคลังรูป และไม่บันทึกหรือส่งรูปไปที่ใด</li>
   <li><strong>รหัสโฆษณา</strong>: ใช้โดย Google AdMob ตามข้อ 2</li>
   <li><strong>การเรียกเก็บเงินของ Google Play</strong>: สำหรับการซื้อในแอปตามข้อ 3</li>
 </ul>
@@ -63,7 +72,7 @@
 <p>แอปนี้ไม่ได้ออกแบบมาสำหรับเด็กอายุต่ำกว่า 13 ปี และเราไม่ได้ตั้งใจเก็บข้อมูลส่วนบุคคลของเด็ก</p>
 
 <h3>6. การลบข้อมูล</h3>
-<p>ข้อมูลในแอปทั้งหมดอยู่ในเครื่องของคุณ คุณลบได้ทันทีโดยล้างข้อมูลแอป หรือถอนการติดตั้งแอป</p>
+<p>ข้อมูลในแอปทั้งหมดอยู่ในเครื่องของคุณ คุณลบได้ทันทีโดยล้างข้อมูลแอป หรือถอนการติดตั้งแอป ผู้พัฒนาไม่มีข้อมูลของคุณที่ต้องขอให้ลบ</p>
 
 <h3>7. การเปลี่ยนแปลงนโยบาย</h3>
 <p>เราอาจปรับปรุงนโยบายนี้ และจะแสดงวันที่มีผลบังคับใหม่ไว้ที่หน้านี้</p>
@@ -82,6 +91,11 @@
 <p>The app saves your settings and play data on your device, such as language, sound settings, timer setup, score counter names, wheel options and roll statistics. This data is <strong>never sent to the developer</strong>, and the developer runs no servers that store user data.</p>
 <p>Android may back up these settings to your Google account if device backup is turned on. That backup is under your control and Google’s policies.</p>
 
+<h3>1.1 Multi-device mode</h3>
+<p>When you create or join a room under “Multi-device”, the app sends game data — the room name, player names, scores, turn order, clocks, dice/coin/wheel results and the device model name (for example “Pixel 7”) — <strong>directly between devices on the same Wi-Fi network, or on the host device’s own hotspot, only</strong>. It never goes over the internet or through any server, and is never sent to the developer. Traffic is end-to-end encrypted with a key derived from the room code, which only people in the room know, and the host must approve each new device before it can join.</p>
+<p>If the host starts its own hotspot, the hotspot name and password (which Android generates fresh each time) are shown in a QR code on the host’s screen so other devices can connect. A joining device keeps them with its last room so it can reconnect if it drops, and deletes them together with it as described below.</p>
+<p>The host device keeps the room on the device so it can be reopened, and a joining device remembers its last room so it can rejoin. This is deleted when the room is closed, when you leave it, or when you tap “Forget”. We suggest using nicknames rather than real names.</p>
+
 <h3>2. Advertising (Google AdMob)</h3>
 <p>The app shows ads through Google AdMob. Google may automatically collect and use the following to serve and measure ads and to prevent fraud:</p>
 <ul>
@@ -98,8 +112,12 @@
 
 <h3>4. Permissions</h3>
 <ul>
-  <li><strong>Internet / network state</strong>: to load ads and verify purchases. All tools work offline.</li>
-  <li><strong>Vibrate</strong>: for timer and clock alerts.</li>
+  <li><strong>Internet / network state / change network connectivity</strong>: to load ads, verify purchases and link devices over Wi-Fi or the host’s hotspot in multi-device mode. All tools work offline.</li>
+  <li><strong>Vibrate</strong>: for timer and clock alerts, and “your turn” alerts in multi-device mode.</li>
+  <li><strong>Wi-Fi state / multicast</strong>: to find and connect to devices in a room on the same Wi-Fi.</li>
+  <li><strong>Nearby devices (Android 13+) or Location (Android 12 and older)</strong>: requested only when the host chooses to start its own hotspot, because Android requires it to start one. The app <strong>never reads, uses or stores your location</strong>.</li>
+  <li><strong>Camera</strong>: only to scan the QR code that joins a room. Images are never saved or sent anywhere.</li>
+  <li><strong>Pictures you pick</strong>: when you tap “Pick the QR from a photo”, the app reads only the picture you choose in the system photo picker, on the device, to find the room QR. It does not ask for access to your photo library and never saves or sends the picture anywhere.</li>
   <li><strong>Advertising ID</strong>: used by Google AdMob as described in section 2.</li>
   <li><strong>Google Play billing</strong>: for the in-app purchase in section 3.</li>
 </ul>
@@ -108,7 +126,7 @@
 <p>The app is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
 
 <h3>6. Deleting your data</h3>
-<p>All app data stays on your device. You can delete it at any time by clearing the app’s storage or uninstalling the app.</p>
+<p>All app data stays on your device. You can delete it at any time by clearing the app’s storage or uninstalling the app. The developer holds no data about you to delete.</p>
 
 <h3>7. Changes</h3>
 <p>We may update this policy and will post the new effective date on this page.</p>
